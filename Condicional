@@ -1,1 +1,29 @@
 
+#Números 
+n1 = int(input("Ingrese el primer número: "))
+n2 = int(input("Ingrese el segundo número: "))
+
+if (n1+n2) > 10:{ print("La suma es mayor a 10")  }
+
+#simplificació de 1'if en una línea 
+#if (n1+n2) > 10: print("La suma es mayor a 10")
+
+If (n1+n2) > 10: {print("La suma es mayor a 10")}
+if else(n1+n2) <= 10: {print("La suma es menor o igual a 10")}
+
+if (n1+n2) > 8: {print("La suma es mayor a 8")}
+if else (n1+n2) < 4: {print("La suma es menor a 4")}
+
+    #operador or (o) Y (and)
+
+if (suma > 8 or suma < 4): {print("La suma es mayor a 8 o menor a 4")}
+if (suma > 12 and suma < 18): {print("La suma es mayor a 12 y menor a 18")}
+
+    #Operador NOT
+
+If suma > 8: {print("La suma es mayor a 15")}
+if not suma == 8: {print("La suma es " igual a 15")}
+
+if not (suma == 15): { 
+    print("La suma es diferente a 15")
+    }
