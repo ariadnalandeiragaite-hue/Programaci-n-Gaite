@@ -1,1 +1,22 @@
+# Condicional 2, que demani dos números i et pregunti: si vols sumar, restar, multiplicar, dividir-los, elevar-los o la divió entera.
 
+num1 = int (input("Introdueix el primer número: "))
+num2 = int (input("Introdueix el segon número: "))
+
+print("Quina operació vols realitzar?")
+operacio = input("Escriu sumar, restar, multiplicar, dividir, elevar o divisió entera: ")
+
+if operacio == "sumar":
+	print(num1 + num2)
+elif operacio == "restar":
+	print(num1 - num2)
+elif operacio == "multiplicar":
+	print(num1 * num2)
+elif operacio == "dividir":
+	print(num1 / num2)
+elif operacio == "elevar":
+	print(num1 ** num2)
+elif operacio == "divisió entera":
+	print(num1 // num2)
+else:
+	print("Operació no vàlida")
